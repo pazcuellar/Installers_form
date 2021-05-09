@@ -1,0 +1,45 @@
+/* custom calendar formatting */
+
+body .fc {
+  font-size: 1em;
+  color: #071D3E;
+}
+
+.fc-unthemed td.fc-today {
+  background: #C0C4CB;
+}
+
+.fc-unthemed .fc-disabled-day {
+  background: #d7d7d7;
+  opacity: .1;
+}
+
+.fc-button-primary {
+  color: #071D3E;
+  background-color: #FFF;
+  border-color: #FFF;
+}
+
+.fc-button-primary:hover {
+  color: #071D3E;
+  background-color: #F0F2F4;
+  border-color: #F0F2F4;
+}
+
+.fc-button-primary:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(76, 91, 106, 0);
+  box-shadow: 0 0 0 0.2rem rgba(76, 91, 106, 0);
+}
+
+.fc-button-primary:not(:disabled):active,
+.fc-button-primary:not(:disabled).fc-button-active {
+  color: #071D3E;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.fc-button-primary:not(:disabled):active:focus,
+.fc-button-primary:not(:disabled).fc-button-active:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(76, 91, 106, 0);
+  box-shadow: 0 0 0 0.2rem rgba(76, 91, 106, 0);
+}
