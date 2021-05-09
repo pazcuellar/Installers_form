@@ -1,0 +1,32 @@
+.buttonContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.approvalTable {
+  width: 100%;
+}
+
+.approvalTable tr:nth-child(4n+4) {
+  border-bottom: medium solid #424242
+}
+
+.approvalForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.error {
+  font-size: 1.25em;
+  color: #990000;
+  background-color: #eeaaaa;
+  border: 1px solid #ff0000;
+  border-radius: 2px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
