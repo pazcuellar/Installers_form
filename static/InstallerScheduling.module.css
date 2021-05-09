@@ -1,0 +1,24 @@
+.calendar {
+  padding: 16px;
+  padding-left: 0px;
+  display: flex;
+  flex: 1;
+}
+
+.leftNav {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 700px) {
+  .calendar {
+    display: none;
+  }
+
+  .leftNav {
+    width: inherit;
+    flex: 1;
+    align-self: stretch;
+  }
+}
